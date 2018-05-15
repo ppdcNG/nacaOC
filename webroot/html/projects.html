@@ -22,6 +22,8 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="../css/handyclasses.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500|Raleway:600" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -66,168 +68,218 @@
 
         </div>
     </div>
+    <div class="wallpaper1 uk-margin-small">
+    </div>
 
-    <div class='container'>
+    <div class='container-fluid'>
         <div class='full-page'>
-            <div class='search-box'>
-                <div class='row'>
-                    <div class="col-sm-12">
-                        <button type="button" class="btn btn-info margin " data-toggle="collapse" data-target="#search" style='width: 100%'>Search</button>
-                    </div>
-                </div>
-                <div class='search panel-collapse collapse' id='search'>
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <div class='search-box'>
 
-                    <form>
-                        <div class='row  uk-margin'>
-                            <div class="col-sm-8">
-                                <div class='uk-margin'>
-                                    <div class="form-group">
-                                        <label for="title-search">Title:</label>
-                                        <input type="text" class="form-control" id="title-search" placeholder="Enter a search keyword">
+                        <div class='search' id='search'>
+
+                            <form>
+                                <div class='row  uk-margin'>
+                                    <div class="col-sm-8">
+                                        <div class='uk-margin'>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control red-butt" id="title-search" placeholder="Enter a search keyword">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class='uk-margin'>
+                                            <div class="button-group">
+                                                <button type="button" class="btn btn-default btn-sm dropdown-toggle red-butt" data-toggle="dropdown" style="width: 100%">Years <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                                                    <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+                                                    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+                                                    <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
+                                                    <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
+                                                    <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class='uk-margin'>
-                                    <div class="form-group">
-                                        <label for="year-search">Year:</label>
-                                        <select name="year" id='year-search' class='form-control'>
-                                            <option value="" selected disabled>All Years</option>
-                                            <option value="saab">2015</option>
-                                            <option value="fiat">2016</option>
-                                            <option value="audi">2017</option>
-                                          </select>
+                                <div class='row'>
+                                    <div class="col-sm-8">
+                                        <div class='uk-margin'>
+                                            <div class="button-group">
+                                                <button type="button" class="btn btn-default btn-sm dropdown-toggle red-butt" data-toggle="dropdown" style="width: 100%">Budget source <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                                                    <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+                                                    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+                                                    <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
+                                                    <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
+                                                    <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-4'>
+                                        <div class='uk-margin'>
+                                            <div class="button-group">
+                                                <button type="button" class="btn btn-default btn-sm dropdown-toggle red-butt" data-toggle="dropdown" style="width: 100%">States <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                                                    <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+                                                    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+                                                    <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
+                                                    <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
+                                                    <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class='row'>
+                                    <div class="col-sm-6">
+                                        <div class='uk-margin'>
+                                            <div class="button-group">
+                                                <button type="button" class="btn btn-default btn-sm dropdown-toggle red-butt" data-toggle="dropdown" style="width: 100%">Procurement Category <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                                                    <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+                                                    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+                                                    <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
+                                                    <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
+                                                    <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-6'>
+                                        <div class='uk-margin'>
+                                            <div class="button-group">
+                                                <button type="button" class="btn btn-default btn-sm dropdown-toggle red-butt" data-toggle="dropdown" style="width: 100%">Procurement Method <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                                                    <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+                                                    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+                                                    <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
+                                                    <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
+                                                    <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class='row uk-margin-small'>
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn btn-info margin " style='width: 100%'>Search</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-9">
+                    <div class='search-summary uk-margin'>
                         <div class='row'>
-                            <div class="col-sm-8">
-                                <div class='uk-margin'>
-                                    <div class="form-group">
-                                        <label for="desc-search">Description:</label>
-                                        <input type="text" class="form-control" id="desc-search" placeholder="Enter a search keyword">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='col-sm-4'>
-                                <div class='uk-margin'>
-                                    <div class="form-group">
-                                        <label for="location-search">Location:</label>
-                                        <select name="location" id='year-search' class='form-control'>
-                                        <option value="" selected disabled>All States</option>
-                                        <option value="saab">Abia</option>
-                                        <option value="fiat">Adamawa</option>
-                                        <option value="audi">Anambra</option>
-                                      </select>
-                                    </div>
-                                </div>
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-lg margin "  data-target="#summary" style='width: 100%'>Summary</button>
                             </div>
                         </div>
-                        <hr>
-                        <div class='uk-padding'>
-                            <button type="button" class="btn btn-info pull-right">Search</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class='search-summary uk-margin'>
-                <div class='row'>
-                    <div class="col-sm-12">
-                        <button type="button" class="btn btn-info margin " data-toggle="collapse" data-target="#summary" style='width: 100%'>Summary</button>
-                    </div>
-                </div>
-                <div class='search panel-collapse collapse' id='summary'>
+                        <div class='search' id='summary'>
 
 
-                    <div class='row uk-margin'>
-                        <div class="col-sm-4">
-                            <h2>&#8358; 6,000,000</h2>
-                            <p>Lowest Amount</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <h2>&#8358; 8,000,000</h2>
-                            <p>Average Amount</p>
-                        </div>
-                        <div class="col-sm-4">
+                            <div class='row uk-margin'>
+                                <div class="col-sm-4">
+                                    <h2>&#8358; 6,000,000</h2>
+                                    <p>Lowest Amount</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h2>&#8358; 8,000,000</h2>
+                                    <p>Average Amount</p>
+                                </div>
+                                <div class="col-sm-4">
 
-                            <h2>&#8358; 12,000,000</h2>
-                            <p>Higest Amount</p>
+                                    <h2>&#8358; 12,000,000</h2>
+                                    <p>Higest Amount</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
                         </div>
                     </div>
+                    <div class='projects-table'>
 
-                    <hr>
+                        <table class="table table-hover" id='project-list'>
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Year</th>
+                                    <th>Location</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
+                                    <td>Asset Codding and tagging of NACA PCRP SureP office</td>
+                                    <td>Asset Codding and tagging of NACA PCRP SureP office</td>
+                                    <td>2017</td>
+                                    <td>Enugu</td>
+                                    <td>Scheduled</td>
+                                </tr>
+                                <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
+                                    <td>Award of contract for the procurement of printer tomers copier toners and anit-virus
+                                        for NASCAP
+                                    </td>
+                                    <td>Award of contract for the procurement of printer tomers copier toners and anit-virus
+                                        for NASCAP
+                                    </td>
+                                    <td>2005</td>
+                                    <td>Anambra</td>
+                                    <td>Scheduled</td>
+                                </tr>
+                                <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
+                                    <td>Award of contract for the supply of six (6) nos 1.5 Hp & three (3) Nos 2.0hp spilt unit
+                                        Air Conditioners
+                                    </td>
+                                    <td>Award of contract for the supply of six (6) nos 1.5 Hp & three (3) Nos 2.0hp spilt unit
+                                        Air Conditioners
+                                    </td>
+                                    <td>2018</td>
+                                    <td>Plateau</td>
+                                    <td>Scheduled</td>
+                                </tr>
+                                <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
+                                    <td>Behaviour Change Initiative Programme for Young People using Communication, HIV Counseling
+                                        and Testing and Screening of MTV series Shugaas a Tool. A pilot program targeted
+                                        for Nigerian Universities</td>
+                                    <td>Behaviour Change Initiative Programme for Young People using Communication, HIV Counseling
+                                        and Testing and Screening of MTV series Shugaas a Tool. A pilot program targeted
+                                        for Nigerian Universities.</td>
+                                    <td>2019</td>
+                                    <td>Gombe</td>
+                                    <td>Scheduled</td>
+                                </tr>
 
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
-            <div class='projects-table'>
-
-                <table class="table table-hover" id='project-list'>
-                    <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th>Description</th>
-                            <th>Year</th>
-                            <th>Location</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
-                            <td>Asset Codding and tagging of NACA PCRP SureP office</td>
-                            <td>Asset Codding and tagging of NACA PCRP SureP office</td>
-                            <td>2017</td>
-                            <td>Enugu</td>
-                            <td>Scheduled</td>
-                        </tr>
-                        <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
-                            <td>Award of contract for the procurement of printer tomers copier toners and anit-virus for NASCAP</td>
-                            <td>Award of contract for the procurement of printer tomers copier toners and anit-virus for NASCAP</td>
-                            <td>2005</td>
-                            <td>Anambra</td>
-                            <td>Scheduled</td>
-                        </tr>
-                        <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
-                            <td>Award of contract for the supply of six (6) nos 1.5 Hp & three (3) Nos 2.0hp spilt unit Air Conditioners</td>
-                            <td>Award of contract for the supply of six (6) nos 1.5 Hp & three (3) Nos 2.0hp spilt unit Air Conditioners</td>
-                            <td>2018</td>
-                            <td>Plateau</td>
-                            <td>Scheduled</td>
-                        </tr>
-                        <tr data-toggle="tooltip" data-placement="left" title="Select to view details!">
-                            <td>Behaviour Change Initiative Programme for Young People using Communication, HIV Counseling and Testing and Screening of MTV series Shugaas a Tool. A pilot program targeted for Nigerian Universities</td>
-                            <td>Behaviour Change Initiative Programme for Young People using Communication, HIV Counseling and Testing and Screening of MTV series Shugaas a Tool. A pilot program targeted for Nigerian Universities.</td>
-                            <td>2019</td>
-                            <td>Gombe</td>
-                            <td>Scheduled</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-
-            <div class='uk-flex uk-flex-center navbar-fixed-bottom'>
-                <nav aria-label="Page navigation">
-                    <ul class="pagination">
-                        <li>
-                            <a href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                        </li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li>
-                            <a href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </div>
+    </div>
+    </div>
+        <!-- FOOTER -->
+        <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+    
+        </div>
+    </div>
 
     </div>
     <!-- /.container -->
