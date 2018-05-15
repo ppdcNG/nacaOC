@@ -52,13 +52,13 @@ body {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img.naca {
+/* .carousel-inner > .item > img.naca {
   position: absolute;
   top: 80px;
   left: 200px;
   /*min-width: 100%;
-  height: 100%;*/
-}
+  height: 100%;
+} */
 .carousel-inner > .item > img.ppdc {
   position: absolute;
   top: 80px;
@@ -66,13 +66,13 @@ body {
   /*min-width: 100%;
   height: 100%;*/
 }
-.carousel-inner > .item > img.break {
+/* .carousel-inner > .item > img.break {
   position: absolute;
   top: 90px;
   left: 250px;
   /*min-width: 100%;
-  height: 100%;*/
-}
+  height: 100%;
+} */
 
 /*.carousel-inner > .item > img {
   position: absolute;

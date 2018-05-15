@@ -1,5 +1,89 @@
 
-.full-page {
-    width: 100%;
+body, html {
     height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.par {
+    /* The image used */
+    background-image: url('../images/back/water.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+  }
+  
+  .sum-notes {
+      font-size: 1rem;
+      font-family: 'Raleway', sans-serif;
+      /* font-weight: bold; */
+  }
+  .slide1 {
+      
+    /* The image used */
+    background-image: url('../images/pres/60.png');
+    
+        /* Full height */
+        height: 100%; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .slide2 {
+    
+  /* The image used */
+  background-image: url('../images/pres/4.png');
+  
+      /* Full height */
+      height: 100%; 
+  
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.slide3 {
+    
+  /* The image used */
+  background-image: url('../images/pres/5.png');
+  
+      /* Full height */
+      height: 100%; 
+  
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+@media only screen and (max-device-width: 650px) {
+    .par, .slide1, .slide2 {
+        background-attachment: scroll;
+    }
 }
